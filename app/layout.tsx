@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Decision Tree App",
-  description: "A simple decision tree application",
+  title: "DIFcalculator",
+  description: "Calculate your DIF score",
 };
 
 export default function RootLayout({

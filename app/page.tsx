@@ -86,7 +86,7 @@ export default function DecisionTree() {
       <div className="max-w-2xl mx-auto space-y-12">
         <div className="text-center space-y-4">
           <h1 className="text-5xl font-bold text-black tracking-tight">
-            Decision Tree
+            DIFcalculator
           </h1>
           <p className="text-xl text-gray-600">
             Enter your values to get started
@@ -100,7 +100,7 @@ export default function DecisionTree() {
               <input
                 type="number"
                 name="difficulty"
-                step="0.1"
+                step="0.001"
                 min="1.0"
                 max="5.0"
                 value={inputs.difficulty}
@@ -117,7 +117,7 @@ export default function DecisionTree() {
               <input
                 type="number"
                 name="importance"
-                step="0.1"
+                step="0.001"
                 min="1.0"
                 max="5.0"
                 value={inputs.importance}
@@ -134,7 +134,7 @@ export default function DecisionTree() {
               <input
                 type="number"
                 name="frequency"
-                step="0.1"
+                step="0.001"
                 min="1.0"
                 max="5.0"
                 value={inputs.frequency}
