@@ -18,3 +18,15 @@ body {
   color: var(--foreground);
   background: var(--background);
 }
+
+/* Add these styles to ensure input text is dark and visible */
+input {
+  color: #000000; /* Black text */
+  /* Optional: you can also add a background color for better contrast */
+  background-color: #ffffff;
+}
+
+/* If you want to ensure placeholder text is also visible */
+input::placeholder {
+  color: #666666; /* Darker gray for placeholder text */
+}
